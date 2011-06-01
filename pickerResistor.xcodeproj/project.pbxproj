@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4176A2F1395A399002F1866 /* background_new.png in Resources */ = {isa = PBXBuildFile; fileRef = F4176A2E1395A399002F1866 /* background_new.png */; };
+		F4176A321395A5B6002F1866 /* ohm.png in Resources */ = {isa = PBXBuildFile; fileRef = F4176A311395A5B6002F1866 /* ohm.png */; };
+		F464A6AB13963ACA00C67076 /* arrowGlow.png in Resources */ = {isa = PBXBuildFile; fileRef = F464A6AA13963ACA00C67076 /* arrowGlow.png */; };
+		F464A6AE13963C8200C67076 /* pickerTopBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = F464A6AD13963C8200C67076 /* pickerTopBorder.png */; };
+		F464A6BA139652FC00C67076 /* icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F47F31E313949CC9003B3495 /* icon@1x.png */; };
+		F464A6BB1396530000C67076 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F47F31DD13949BB4003B3495 /* icon@2x.png */; };
+		F47F31E013949BBC003B3495 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F47F31DF13949BBC003B3495 /* Default@2x.png */; };
+		F47F31E213949CBB003B3495 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F47F31E113949CBB003B3495 /* Default.png */; };
+		F4CBDC911380B3C000724DD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CBDC901380B3C000724DD9 /* UIKit.framework */; };
+		F4CBDC931380B3C000724DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CBDC921380B3C000724DD9 /* Foundation.framework */; };
+		F4CBDC951380B3C000724DD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CBDC941380B3C000724DD9 /* CoreGraphics.framework */; };
+		F4CBDC9B1380B3C000724DD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4CBDC991380B3C000724DD9 /* InfoPlist.strings */; };
+		F4CBDC9E1380B3C000724DD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CBDC9D1380B3C000724DD9 /* main.m */; };
+		F4CBDCA11380B3C000724DD9 /* pickerResistorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CBDCA01380B3C000724DD9 /* pickerResistorAppDelegate.m */; };
+		F4CBDCA41380B3C100724DD9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4CBDCA21380B3C100724DD9 /* MainWindow.xib */; };
+		F4CBDCA71380B3C100724DD9 /* pickerResistorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CBDCA61380B3C100724DD9 /* pickerResistorViewController.m */; };
+		F4CBDCAA1380B3C100724DD9 /* pickerResistorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4CBDCA81380B3C100724DD9 /* pickerResistorViewController.xib */; };
+		F4CBDD221381F4D800724DD9 /* bgPicker.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CBDD201381F4D800724DD9 /* bgPicker.png */; };
+		F4CBDD231381F4D800724DD9 /* bgResistor.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CBDD211381F4D800724DD9 /* bgResistor.png */; };
+		F4CBDD251382045E00724DD9 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CBDD241382045E00724DD9 /* arrow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4176A2E1395A399002F1866 /* background_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_new.png; sourceTree = "<group>"; };
+		F4176A311395A5B6002F1866 /* ohm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ohm.png; sourceTree = "<group>"; };
+		F464A6AA13963ACA00C67076 /* arrowGlow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowGlow.png; sourceTree = "<group>"; };
+		F464A6AD13963C8200C67076 /* pickerTopBorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickerTopBorder.png; sourceTree = "<group>"; };
+		F47F31DD13949BB4003B3495 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		F47F31DF13949BBC003B3495 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		F47F31E113949CBB003B3495 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		F47F31E313949CC9003B3495 /* icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@1x.png"; path = "../icon@1x.png"; sourceTree = "<group>"; };
+		F4CBDC8C1380B3C000724DD9 /* Ohminous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ohminous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CBDC901380B3C000724DD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4CBDC921380B3C000724DD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4CBDC941380B3C000724DD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4CBDC981380B3C000724DD9 /* pickerResistor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pickerResistor-Info.plist"; sourceTree = "<group>"; };
+		F4CBDC9A1380B3C000724DD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4CBDC9C1380B3C000724DD9 /* pickerResistor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pickerResistor-Prefix.pch"; sourceTree = "<group>"; };
+		F4CBDC9D1380B3C000724DD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4CBDC9F1380B3C000724DD9 /* pickerResistorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pickerResistorAppDelegate.h; path = pickerResistor/pickerResistorAppDelegate.h; sourceTree = "<group>"; };
+		F4CBDCA01380B3C000724DD9 /* pickerResistorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = pickerResistorAppDelegate.m; path = pickerResistor/pickerResistorAppDelegate.m; sourceTree = "<group>"; };
+		F4CBDCA31380B3C100724DD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F4CBDCA51380B3C100724DD9 /* pickerResistorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pickerResistorViewController.h; sourceTree = "<group>"; };
+		F4CBDCA61380B3C100724DD9 /* pickerResistorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pickerResistorViewController.m; sourceTree = "<group>"; };
+		F4CBDCA91380B3C100724DD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/pickerResistorViewController.xib; sourceTree = "<group>"; };
+		F4CBDD201381F4D800724DD9 /* bgPicker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgPicker.png; sourceTree = "<group>"; };
+		F4CBDD211381F4D800724DD9 /* bgResistor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgResistor.png; sourceTree = "<group>"; };
+		F4CBDD241382045E00724DD9 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4CBDC891380B3C000724DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CBDC911380B3C000724DD9 /* UIKit.framework in Frameworks */,
+				F4CBDC931380B3C000724DD9 /* Foundation.framework in Frameworks */,
+				F4CBDC951380B3C000724DD9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F464A6B71396513300C67076 /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				F4CBDC9F1380B3C000724DD9 /* pickerResistorAppDelegate.h */,
+				F4CBDCA01380B3C000724DD9 /* pickerResistorAppDelegate.m */,
+			);
+			name = delegates;
+			sourceTree = "<group>";
+		};
+		F4CBDC811380B3C000724DD9 = {
+			isa = PBXGroup;
+			children = (
+				F464A6B71396513300C67076 /* delegates */,
+				F4CBDC961380B3C000724DD9 /* pickerResistor */,
+				F4CBDC8F1380B3C000724DD9 /* Frameworks */,
+				F4CBDC8D1380B3C000724DD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4CBDC8D1380B3C000724DD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4CBDC8C1380B3C000724DD9 /* Ohminous.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4CBDC8F1380B3C000724DD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4CBDC901380B3C000724DD9 /* UIKit.framework */,
+				F4CBDC921380B3C000724DD9 /* Foundation.framework */,
+				F4CBDC941380B3C000724DD9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4CBDC961380B3C000724DD9 /* pickerResistor */ = {
+			isa = PBXGroup;
+			children = (
+				F4CBDCA21380B3C100724DD9 /* MainWindow.xib */,
+				F4CBDCA51380B3C100724DD9 /* pickerResistorViewController.h */,
+				F4CBDCA61380B3C100724DD9 /* pickerResistorViewController.m */,
+				F4CBDCA81380B3C100724DD9 /* pickerResistorViewController.xib */,
+				F4CBDC971380B3C000724DD9 /* Supporting Files */,
+			);
+			path = pickerResistor;
+			sourceTree = "<group>";
+		};
+		F4CBDC971380B3C000724DD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F464A6AD13963C8200C67076 /* pickerTopBorder.png */,
+				F464A6AA13963ACA00C67076 /* arrowGlow.png */,
+				F4176A311395A5B6002F1866 /* ohm.png */,
+				F47F31E313949CC9003B3495 /* icon@1x.png */,
+				F4176A2E1395A399002F1866 /* background_new.png */,
+				F47F31E113949CBB003B3495 /* Default.png */,
+				F47F31DF13949BBC003B3495 /* Default@2x.png */,
+				F47F31DD13949BB4003B3495 /* icon@2x.png */,
+				F4CBDC981380B3C000724DD9 /* pickerResistor-Info.plist */,
+				F4CBDC991380B3C000724DD9 /* InfoPlist.strings */,
+				F4CBDD241382045E00724DD9 /* arrow.png */,
+				F4CBDD201381F4D800724DD9 /* bgPicker.png */,
+				F4CBDD211381F4D800724DD9 /* bgResistor.png */,
+				F4CBDC9C1380B3C000724DD9 /* pickerResistor-Prefix.pch */,
+				F4CBDC9D1380B3C000724DD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4CBDC8B1380B3C000724DD9 /* pickerResistor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CBDCAD1380B3C100724DD9 /* Build configuration list for PBXNativeTarget "pickerResistor" */;
+			buildPhases = (
+				F4CBDC881380B3C000724DD9 /* Sources */,
+				F4CBDC891380B3C000724DD9 /* Frameworks */,
+				F4CBDC8A1380B3C000724DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pickerResistor;
+			productName = pickerResistor;
+			productReference = F4CBDC8C1380B3C000724DD9 /* Ohminous.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4CBDC831380B3C000724DD9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F4CBDC861380B3C000724DD9 /* Build configuration list for PBXProject "pickerResistor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4CBDC811380B3C000724DD9;
+			productRefGroup = F4CBDC8D1380B3C000724DD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4CBDC8B1380B3C000724DD9 /* pickerResistor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4CBDC8A1380B3C000724DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CBDC9B1380B3C000724DD9 /* InfoPlist.strings in Resources */,
+				F4CBDCA41380B3C100724DD9 /* MainWindow.xib in Resources */,
+				F4CBDCAA1380B3C100724DD9 /* pickerResistorViewController.xib in Resources */,
+				F4CBDD221381F4D800724DD9 /* bgPicker.png in Resources */,
+				F4CBDD231381F4D800724DD9 /* bgResistor.png in Resources */,
+				F4CBDD251382045E00724DD9 /* arrow.png in Resources */,
+				F47F31E013949BBC003B3495 /* Default@2x.png in Resources */,
+				F47F31E213949CBB003B3495 /* Default.png in Resources */,
+				F4176A2F1395A399002F1866 /* background_new.png in Resources */,
+				F4176A321395A5B6002F1866 /* ohm.png in Resources */,
+				F464A6AB13963ACA00C67076 /* arrowGlow.png in Resources */,
+				F464A6AE13963C8200C67076 /* pickerTopBorder.png in Resources */,
+				F464A6BA139652FC00C67076 /* icon@1x.png in Resources */,
+				F464A6BB1396530000C67076 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4CBDC881380B3C000724DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CBDC9E1380B3C000724DD9 /* main.m in Sources */,
+				F4CBDCA11380B3C000724DD9 /* pickerResistorAppDelegate.m in Sources */,
+				F4CBDCA71380B3C100724DD9 /* pickerResistorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4CBDC991380B3C000724DD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CBDC9A1380B3C000724DD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4CBDCA21380B3C100724DD9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CBDCA31380B3C100724DD9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F4CBDCA81380B3C100724DD9 /* pickerResistorViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CBDCA91380B3C100724DD9 /* en */,
+			);
+			name = pickerResistorViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4CBDCAB1380B3C100724DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4CBDCAC1380B3C100724DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F4CBDCAE1380B3C100724DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pickerResistor/pickerResistor-Prefix.pch";
+				INFOPLIST_FILE = "pickerResistor/pickerResistor-Info.plist";
+				PRODUCT_NAME = Ohminous;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4CBDCAF1380B3C100724DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pickerResistor/pickerResistor-Prefix.pch";
+				INFOPLIST_FILE = "pickerResistor/pickerResistor-Info.plist";
+				PRODUCT_NAME = Ohminous;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4CBDC861380B3C000724DD9 /* Build configuration list for PBXProject "pickerResistor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CBDCAB1380B3C100724DD9 /* Debug */,
+				F4CBDCAC1380B3C100724DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CBDCAD1380B3C100724DD9 /* Build configuration list for PBXNativeTarget "pickerResistor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CBDCAE1380B3C100724DD9 /* Debug */,
+				F4CBDCAF1380B3C100724DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4CBDC831380B3C000724DD9 /* Project object */;
+}
