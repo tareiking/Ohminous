@@ -1,0 +1,24 @@
+--------------------------------------------------------------
+## OHMINOUS IPHONE APP:  Tarei King 2011, for BCT semester one
+--------------------------------------------------------------
+
+## A simple 4 band resistor calculator for iPhone
+## has a little bit of extra "sex" with some real basic design hacks
+## also comes with a free memory leak
+
+
+OHMINOUS is a simple 4 band resistor calculator - so you always know how much resistance you require for your pet projects
+and DIY goodness.
+
+TODO:
+
+---- Memory leak to be cleaned up
+---- Add 5 band resistor calculator on rotate
+---- Better functions and callbacks (very basic at the moment) for calculating resistance
+---- Remove hackiness
+
+WHAT TOOK AGES:
+
+---- calculating with obj-c.  pow(x, y) is completely different to powf(x,y)
+---- UIPickerView was has a few 'fun' bits "data delegates and view options" which took a bit of getting used to
+
