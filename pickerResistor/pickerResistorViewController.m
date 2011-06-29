@@ -133,7 +133,8 @@
     NSNumberFormatter *nf   = [[NSNumberFormatter alloc] init]; // convert to a 'pretty' number format
     nf.numberStyle = NSNumberFormatterDecimalStyle;
 
-    NSString *str           = [nf stringFromNumber:[[NSNumber numberWithDouble:resistance] init]];
+    NSString *str           = [nf stringFromNumber:[NSNumber numberWithDouble:resistance]];    
+    [nf release];
     
     // set visible toggles k M 
     if (resistance < 1) {
@@ -158,7 +159,7 @@
     nf = nil;
     str = nil;
     
-    [nf release];
+
     [str release];
 }
 
